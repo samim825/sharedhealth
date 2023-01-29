@@ -14,29 +14,60 @@
         .color-white {
             color: white;
         }
+        
+        .bg-color {
+            background-color: #e9ecef;
+        }
+        
+        hr {
+            border: 2px solid red;
+        }
     </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm bg-primary">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link active color-white" href="index.html"><b>Home</b></a
-          >
-        </li>
-      </ul>
-    </nav>
+    <div style="padding-top: 10px">
+        <ul>
+            <li>Health Data Architecture (HDA)</li>
+            <li>a2i</li>
+        </ul>
+    </div>
+    <div>
+        <nav class="navbar navbar-expand-sm bg-primary">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active color-white" href="index.html"><b>Home</b></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active color-white" href="identity-server.html"
+              ><b> <span style="color: black"> > </span> Identity Server </b></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
 
     <div class="row">
-      <div class="col-sm-4" style="background-color: white">
-        <p>Demo Data</p>
-        <p>Demo Data</p>
-        <p>Demo Data</p>
-        <p>Demo Data</p>
-      </div>
-      <div class="col-sm-8" style="background-color: lightsteelblue">
-        <h3>Identity server</h3>
-      </div>
+      <div class="col-sm-4">
+        <a
+          href="identity-server.html"
+          class="list-group-item list-group-item-action"
+          >Identity Server
+        </a>
+                    <a href="healthid-server.html" class="list-group-item list-group-item-action">HealthId Server
+        </a>
+                    <a href="mci-server.html" class="list-group-item list-group-item-action">MCI Server
+        </a>
+                    <a href="tr-server.html" class="list-group-item list-group-item-action">Terminology Server
+        </a>
+                    <a href="free-shr.html" class="list-group-item list-group-item-action">Free SHR
+        </a>
     </div>
-  </body>
+    <div class="col-sm-8">
+        <h3>Identity server</h3>
+    </div>
+    </div>
+</body>
+
 </html>
